@@ -33,25 +33,25 @@ struct ListView: View {
                     HStack(spacing: Constants.twelveValue) {
                         switch section {
                         case .trendingMovies(let movies):
-                            NavigateToPlayer(model: movies,
-                                             size: size,
-                                             isloading: viewModel.isloading)
+                            NavigateToPlayerView(model: movies,
+                                                 size: size,
+                                                 isloading: viewModel.isloading)
                         case .trendingTv(let tv):
-                            NavigateToPlayer(model: tv,
-                                             size: size,
-                                             isloading: viewModel.isloading)
+                            NavigateToPlayerView(model: tv,
+                                                 size: size,
+                                                 isloading: viewModel.isloading)
                         case .popular(let popular):
-                            NavigateToPlayer(model: popular,
-                                             size: size,
-                                             isloading: viewModel.isloading)
+                            NavigateToPlayerView(model: popular,
+                                                 size: size,
+                                                 isloading: viewModel.isloading)
                         case .upComing(let upComing):
-                            NavigateToPlayer(model: upComing,
-                                             size: size,
-                                             isloading: viewModel.isloading)
+                            NavigateToPlayerView(model: upComing,
+                                                 size: size,
+                                                 isloading: viewModel.isloading)
                         case .topRate(let topRated):
-                            NavigateToPlayer(model: topRated,
-                                             size: size,
-                                             isloading: viewModel.isloading)
+                            NavigateToPlayerView(model: topRated,
+                                                 size: size,
+                                                 isloading: viewModel.isloading)
                         }
                     }
                     .padding(.horizontal, Constants.fifteenValue)

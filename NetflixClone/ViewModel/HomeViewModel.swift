@@ -36,6 +36,7 @@ extension HomeViewModel {
     @MainActor
     func manageHomeResponse() async throws {
         isloading = true
+        homeSection.removeAll()
         let popularResult = try await fetchPopular()
         let trendingMovieResult = try await fetchTrendingMovies()
         let trendingTvResult = try await fetchTrendingTv()

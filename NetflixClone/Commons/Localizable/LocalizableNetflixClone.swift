@@ -22,6 +22,10 @@ enum LocalizableNetflixClone: String, Localizable {
     case gamesIconName
     case newsAndHotIconName
     case myNetflixIconName
+    case searchIconName
+    case starIcon
+    case searchTFPlaceholder
+    case micIconName
     
     var table: String {
         "Localizable"

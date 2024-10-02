@@ -25,7 +25,8 @@ struct HeaderView: View {
             VStack {
                 WebImage(url: bannerImage)
                     .resizable()
-                    .placeholder(Image(LocalizableNetflixClone.placeholderImg.localized))
+                    .placeholder(Image(LocalizableNetflixClone.placeholderImg.localized,
+                                       bundle: Bundle(for: NetworkManager.self)))
                     .scaledToFill()
                     .clipShape(RoundedRectangle(cornerRadius: Constants.fifteenValue))
                     .overlay {
@@ -60,5 +61,5 @@ struct HeaderView: View {
 }
 
 #Preview {
-    HeaderView(bannerImage: URL(string: UrlsConstants.imageURL+"/3bhkrj58Vtu7enYsRolD1fZdja1.jpg"))
+    HeaderView(bannerImage: URL(string: UrlsConstants.imageURL+"/39wmItIWsg5sZMyRUHLkWBcuVCM.jpg"))
 }

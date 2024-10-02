@@ -1,9 +1,6 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
-    "Games" : {
-
-    },
     "gamesIconName" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -26,10 +23,7 @@
         }
       }
     },
-    "Hello World!" : {
-
-    },
-    "Home" : {
+    "Hello, World!" : {
 
     },
     "homeName" : {
@@ -54,8 +48,16 @@
         }
       }
     },
-    "My Netflix" : {
-
+    "micIconName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "mic"
+          }
+        }
+      }
     },
     "myListName" : {
       "extractionState" : "manual",
@@ -100,9 +102,6 @@
           }
         }
       }
-    },
-    "News & Hot" : {
-
     },
     "newsAndHotIconName" : {
       "extractionState" : "manual",
@@ -169,6 +168,42 @@
           }
         }
       }
+    },
+    "searchIconName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "magnifyingglass"
+          }
+        }
+      }
+    },
+    "searchTFPlaceholder" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Search games, shows, movies..."
+          }
+        }
+      }
+    },
+    "starIcon" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "star.fill"
+          }
+        }
+      }
+    },
+    "Views" : {
+
     }
   },
   "version" : "1.0"

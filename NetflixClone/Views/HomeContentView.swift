@@ -59,7 +59,8 @@ struct HomeContentView: View {
             .toolbar {
                 ToolbarItem(placement: .navigation) {
                     HStack {
-                        Image(LocalizableNetflixClone.netflixName.localized)
+                        Image(LocalizableNetflixClone.netflixName.localized,
+                              bundle: Bundle(for: NetworkManager.self))
                             .resizable()
                             .scaledToFill()
                             .frame(width: Constants.twentyValue,
@@ -69,6 +70,15 @@ struct HomeContentView: View {
                 }
                 ToolbarItem(placement: .topBarTrailing) {
                     HStack {
+                        NavigationLink(
+                            destination: SearchContentView(viewModel: SearchViewModel(serviceManger: SearchManger(serviceManager: SearchService())))
+                                .toolbar(.hidden, for: .tabBar)
+                        ) {
+                            Image(systemName: LocalizableNetflixClone.searchIconName.localized)
+                                .foregroundStyle(Color.white)
+                                .frame(width: Constants.twentyValue,
+                                       height: Constants.twentyValue)
+                        }
                         Spacer()
                     }
                 }
