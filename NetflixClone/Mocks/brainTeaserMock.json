@@ -1,0 +1,32 @@
+[
+    {
+        "name": "WORD SEARCH",
+        "descrip": "Word Search is one of the best word games to exercise your brain, vocabulary as well as pattern recognition. The goal of Word Search is to find all the words that are listed next to the puzzle grid. The words are hidden inside the puzzle grid and go in all directions: horizontal, vertical, diagonal as well as backwards. Go to the calendar to find more puzzles. Come back every day for at least a few minutes to exercise your mind and the brain!",
+        "image": "wordSearch",
+        "url": "https://html5.gamedistribution.com/c13ee9c06edc4f0a8d7f6f291a7c13d8/?gd_sdk_referrer_url=https://gamedistribution.com/games/word-search-2"
+    },
+    {
+        "name": "WORDS OF WONDERS",
+        "descrip": "With a lot of levels to solve, each with a unique set of letters to connect, you'll never run out of brain-teasing fun. But don't worry if you get stuck, you can always use hints to reveal random letters or hammer power-ups to reveal a letter of your choosing. As you progress through the levels, you'll also have the chance to collect different pictures of the world wonders.",
+        "image": "wordsOfWonders",
+        "url": "https://html5.gamedistribution.com/c8ba1cb2f23d40b5a19fd606fcc3e50b/?gd_sdk_referrer_url=https://gamedistribution.com/games/words-of-wonders"
+    },
+    {
+        "name": "KITTY SCRAMBLE",
+        "descrip": "Help cute kitty to find hidden words - discover them on the board with letters. Use hints, search the words on the board, and swipe through them to open! Invite your friends and play together.",
+        "image": "kittyScramble",
+        "url": "https://html5.gamedistribution.com/944186abe50e452dac7f0e8d3e0a8814/?gd_sdk_referrer_url=https://gamedistribution.com/games/kitty-scramble"
+    },
+    {
+        "name": "DAILY SUDOKU",
+        "descrip": "Daily Sudoku provides a thought-provoking journey that will keep you engrossed until every puzzle box is filled. If you enjoy challenging your intellect and sharpening your problem-solving skills, then you've come to the perfect spot.",
+        "image": "dailySudoku",
+        "url": "https://html5.gamedistribution.com/dd9701cd84da40699cdc404645f29c1f/?gd_sdk_referrer_url=https://gamedistribution.com/games/daily-sudoku-2"
+    },
+    {
+        "name": "HEXA LOOP 3D",
+        "descrip": "Relaxing Puzzle game. People love it! with more than 100 Levels ∞ Hexa Loop 3D is a fun way of increasing your logic skills. It can be considered a puzzle game about creating intricate looping patterns or just the application of using a simple concept: connecting multiple things and making fun of it. If you are looking for stress relief or a relaxing game type, enjoy the loop!",
+        "image": "hexaloop",
+        "url": "https://html5.gamedistribution.com/e5761671aa0e4d2eac325d75f251717e/?gd_sdk_referrer_url=https://gamedistribution.com/games/hexa-loop-3d"
+    }
+]

@@ -11,8 +11,8 @@ internal import SDWebImageSwiftUI
 struct SearchContentView: View {
     
     private enum Constants {
-        static let twentyValue: CGFloat = 20
         static let pointThreeValue: CGFloat = 0.3
+        static let twentyValue: CGFloat = 20
     }
     
     @ObservedObject private var viewModel: SearchViewModel

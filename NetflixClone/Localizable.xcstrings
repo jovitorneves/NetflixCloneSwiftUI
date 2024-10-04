@@ -1,6 +1,9 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "Games" : {
+
+    },
     "gamesIconName" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -135,6 +138,9 @@
           }
         }
       }
+    },
+    "Play" : {
+
     },
     "playImg" : {
       "extractionState" : "manual",

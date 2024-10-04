@@ -22,7 +22,7 @@ public struct TabBar: View {
                 }
                 .tag(0)
             
-            MyNetflixContentView()
+            GamesContentView(viewModel: GamesViewModel(service: GamesManager()))
                 .tabItem {
                     Image(systemName: LocalizableNetflixClone.gamesIconName.localized)
                     Text(LocalizableNetflixClone.gamesName.localized)
