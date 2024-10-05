@@ -16,6 +16,6 @@ struct UrlsConstants {
     static let trendingTv = baseURl+"/trending/tv/day?api_key="+apiKey
     static let getUpComing = baseURl+"/movie/upcoming?api_key="+apiKey
     static let getTopRated = baseURl+"/movie/top_rated?api_key="+apiKey
-    static let discoverUrl = baseURl+"/discover/movie?api_key="+apiKey
+    static let discoverUrl = baseURl+"/discover/movie?api_key="+apiKey+"&language=pa&sort_by=popularity.desc&include_adult=false&include_video=false&with_watch_monetization_types=flatrate"
     static let searchUrl = baseURl+"/search/movie?api_key="+apiKey
 }
