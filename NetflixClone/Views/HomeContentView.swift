@@ -39,12 +39,10 @@ struct HomeContentView: View {
                             ListView(viewModel: viewModel,
                                      size: size)
                         }
-                        .padding(.bottom, Constants.thirtyValue)
                     }
                     .scrollIndicators(.hidden)
                 }
             }
-            .ignoresSafeArea(edges: .bottom)
             .onAppear {
                 Task {
                     do {
