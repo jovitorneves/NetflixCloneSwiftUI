@@ -1,9 +1,6 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
-    "Games" : {
-
-    },
     "gamesIconName" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -105,6 +102,9 @@
           }
         }
       }
+    },
+    "News & Hot" : {
+
     },
     "newsAndHotIconName" : {
       "extractionState" : "manual",

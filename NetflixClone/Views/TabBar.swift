@@ -29,7 +29,7 @@ public struct TabBar: View {
                 }
                 .tag(1)
             
-            MyNetflixContentView()
+            NewHotContentView(viewModel: NewHotViewModel(serviceManger: HomeManager(serviceManager: HomeService())))
                 .tabItem {
                     Image(systemName: LocalizableNetflixClone.newsAndHotIconName.localized)
                     Text(LocalizableNetflixClone.newsAndHotName.localized)
